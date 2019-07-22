@@ -83,7 +83,11 @@ hr.light {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.btn-danger, .bg-danger {
+.btn-danger {
+  background-color: red;
+}
+
+.bg-colors{
   background-color: red;
 }
 
@@ -179,7 +183,7 @@ header.masthead {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: rgba(255, 0, 0, 0.7);
   transition: opacity 0.25s ease;
   text-align: center;
 }
